@@ -1,8 +1,7 @@
 import json
 from string import ascii_uppercase, digits
 
-
-# Словарь с ключами длиной < 6
+# Словарь с ключами длиной <= 5
 data2 = json.load(open("dictionary.json"))
 data_cleand2 = json.load(open("dictionary.json"))
 
