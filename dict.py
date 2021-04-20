@@ -18,7 +18,6 @@ for i in data_cleand2.keys():
         keys_five.append(i)
 for x in keys_five:
     short_words.pop(x)
-
 # Словарь с ключами длиной 5-9
 
 data3 = json.load(open("dictionary.json"))
